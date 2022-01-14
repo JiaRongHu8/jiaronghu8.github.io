@@ -10,7 +10,6 @@ body{
 
 ul {
     background-image: url("images/keanureeves.png");
-    background-size: contain;
     list-style-type: none; 
     margin: 0; 
     padding: 0; 
