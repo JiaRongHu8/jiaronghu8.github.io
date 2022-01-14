@@ -3,6 +3,11 @@
     src: url(/tenorite/Tenorite-Regular.ttf);
 }
 
+body{
+    background-image: url("images/background.jpeg");
+    background-size: cover;
+}
+
 ul { 
     list-style-type: none; 
     margin: 0; 
