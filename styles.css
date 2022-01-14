@@ -1,3 +1,8 @@
+@font-face {
+    font-family: tenorite;
+    src: url(/tenorite/Tenorite-Regular.ttf);
+}
+
 ul { 
     list-style-type: none; 
     margin: 0; 
@@ -7,6 +12,7 @@ ul {
     position: fixed; 
     height: 100%; 
     overflow: auto;
+    font-family: tenorite;
 }
 
 li a {
@@ -14,14 +20,24 @@ li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    font-family: tenorite;
 }
 
 li a.active {
     background-color: #6667ab;
     color: white;
+    font-family: tenorite;
 }
 
 li a:hover:not(.active) {
-    background-color: #8c5896;
+    background-color: rgb(139, 139, 139);
     color: white;
+    font-family: tenorite;
+}
+
+.mainBody{
+    margin-left:15%;
+    padding:1px 16px;
+    height:1000px;
+    font-family: tenorite;
 }
