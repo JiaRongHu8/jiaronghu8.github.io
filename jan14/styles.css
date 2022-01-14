@@ -1,0 +1,13 @@
+@font-face {
+    font-family: tenorite;
+    src: url(/tenorite/Tenorite-Regular.ttf);
+}
+
+p{
+    font-family: tenorite;
+    font-size:20px;
+    color:white;
+}
+.imgBack{
+    background-image: url("/images/background.jpeg")
+}

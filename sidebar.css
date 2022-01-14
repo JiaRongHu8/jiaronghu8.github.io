@@ -1,6 +1,6 @@
 @font-face {
     font-family: tenorite;
-    src: url(/tenorite/Tenorite-Regular.ttf);
+    src: url(tenorite/Tenorite-Regular.ttf);
 }
 
 body{
@@ -8,7 +8,9 @@ body{
     background-size: cover;
 }
 
-ul { 
+ul {
+    background-image: url("images/keanu\ reeves.png");
+    background-size: contain;
     list-style-type: none; 
     margin: 0; 
     padding: 0; 
