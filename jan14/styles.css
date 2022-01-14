@@ -10,4 +10,5 @@ p{
 }
 .imgBack{
     background-image: url("/images/background.jpeg");
+    height:50px
 }
