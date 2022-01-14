@@ -9,5 +9,5 @@ p{
     color:white;
 }
 .imgBack{
-    background-image: url("/images/background.jpeg")
+    background-image: url("/images/background.jpeg");
 }
