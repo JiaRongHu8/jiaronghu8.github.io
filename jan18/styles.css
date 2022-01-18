@@ -8,9 +8,14 @@ p{
     font-size:20px;
     color:white;
 }
-.imgBack{
-    background-image: url("/images/background.jpeg");
-    height: 50px;
-    font-family: tenorite;
+
+ul{
+    background-color:mediumslateblue;
+    list-style-type: none;
+
 }
 
+li a{
+    color:white;
+    font-family: tenorite;
+}
