@@ -5,8 +5,7 @@
 
 p{
     font-family: tenorite;
-    font-size:20px;
-    color:white;
+
 }
 
 ul{
@@ -19,4 +18,12 @@ li a{
     color:white;
     font-family: tenorite;
     float: left;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+
+li a:hover{
+    color: mediumslateblue;
+    background-color:white;
 }
