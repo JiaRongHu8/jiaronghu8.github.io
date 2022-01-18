@@ -9,13 +9,13 @@ p{
 }
 
 ul{
-    background-color:mediumslateblue;
     list-style-type: none;
     overflow: hidden;
     font-family: tenorite;
 }
 
 li a{
+    background-color:mediumslateblue;
     color:white;
     float: left;
     text-decoration: none;
@@ -28,7 +28,32 @@ li a:active{
     color:black;
     background-color: red;
 }
+
 li a:hover:not(.active){
     color: mediumslateblue;
     background-color:white;
+}
+
+li a:link:not(.visited){
+    color:mediumvioletred;
+}
+
+li a:visited{
+    color:purple;
+}
+
+/* dropdown */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content{
+    display: none;
+    background-color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
 }
