@@ -12,10 +12,11 @@ p{
 ul{
     background-color:mediumslateblue;
     list-style-type: none;
-
+    overflow: hidden;
 }
 
 li a{
     color:white;
     font-family: tenorite;
+    float: left;
 }
