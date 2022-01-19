@@ -44,7 +44,7 @@ li a:hover:not(.active) {
 }
 
 .mainBody{
-    margin-left:15%;
+    margin-left:180px;
     padding:1px 16px;
     height:1000px;
     font-family: tenorite;
