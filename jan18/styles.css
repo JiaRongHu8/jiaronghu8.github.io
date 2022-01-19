@@ -34,13 +34,6 @@ li a:hover:not(.active){
     background-color:white;
 }
 
-li a:link:not(.visited){
-    color:mediumvioletred;
-}
-
-li a:visited{
-    color:purple;
-}
 
 /* dropdown */
 
