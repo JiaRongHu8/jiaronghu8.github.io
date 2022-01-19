@@ -3,15 +3,16 @@
     src: url(/tenorite/Tenorite-Regular.ttf);
 }
 
-p{
-    font-family: tenorite;
-
-}
+/* list */
 
 ul{
     list-style-type: none;
     overflow: hidden;
-    font-family: tenorite;
+    display:block;
+    background-color:mediumslateblue;
+}
+ol{
+    list-style-type: none;
 }
 
 li a{
@@ -21,19 +22,12 @@ li a{
     text-decoration: none;
     padding: 8px 16px;
     display: block;
-    text-align: center;
 }
 
-li a:active{
-    color:black;
-    background-color: red;
-}
-
-li a:hover:not(.active){
+li a:hover{
     color: mediumslateblue;
     background-color:white;
 }
-
 
 /* dropdown */
 
@@ -44,9 +38,11 @@ li a:hover:not(.active){
 
 .dropdown-content{
     display: none;
-    background-color: #f9f9f9;
+    background-color:mediumslateblue;
+    color:black;
+    min-width: 50px;
 }
 
 .dropdown:hover .dropdown-content{
-    display:block;
+    display: contents;
 }
