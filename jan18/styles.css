@@ -53,10 +53,3 @@ nav{
     height:20%;
     background-color:blue;
 }
-
-article{
-    width: 70%;
-    height: 80%;
-    background-color:green;
-    overflow-y: scroll;
-}
