@@ -37,12 +37,26 @@ li a:hover{
 }
 
 .dropdown-content{
+    float: left;
     display: none;
     background-color:mediumslateblue;
     color:black;
-    min-width: 50px;
+    min-width: 150px;
 }
 
 .dropdown:hover .dropdown-content{
-    display: contents;
+    display: block;
+    float: left;
+}
+
+nav{
+    height:20%;
+    background-color:blue;
+}
+
+article{
+    width: 70%;
+    height: 80%;
+    background-color:green;
+    overflow-y: scroll;
 }

@@ -7,6 +7,7 @@ body{
     background-image: url("images/background2.jpg");
     background-size: cover;
     overscroll-behavior-y: none;
+    margin:0;
 }
 
 ul {
