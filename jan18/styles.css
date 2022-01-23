@@ -46,7 +46,6 @@ li a:hover{
 
 .dropdown:hover .dropdown-content{
     display: contents;
-    float: left;
 }
 
 nav{
