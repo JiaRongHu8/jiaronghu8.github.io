@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    overscroll-behavior-y: none;
+    margin:0;
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 180px; 
+    position: fixed; 
+    height: 100%; 
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #6f848d60;
+    color: white;
+}
+
+.mainBody{
+    margin-left:180px;
+    padding:1px 16px;
+    height:5000px;
+    color: white;
+}
