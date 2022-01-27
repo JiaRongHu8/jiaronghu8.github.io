@@ -1,11 +1,12 @@
 @font-face {
     font-family: tenorite;
-    src: url(tenorite/Tenorite-Regular.ttf);
+    src: url(/tenorite/Tenorite-Regular.ttf);
 }
 
 body{
     overscroll-behavior-y: none;
     margin:0;
+    font-family: tenorite;
 }
 
 nav{
@@ -21,7 +22,6 @@ ul {
     list-style-type: none; 
     padding: 0; 
     overflow: auto;
-    font-family: tenorite;
 }
 
 li a {
@@ -63,6 +63,7 @@ p{
     text-align:justify;
     text-justify: inter-character;
     overflow-wrap: break-word;
+    font-family: tenorite;
 }
 
 img{
@@ -85,4 +86,5 @@ header{
     background-color:green;
     font-size:1.2em;
     color:white;
+    font-family: tenorite;
 }
