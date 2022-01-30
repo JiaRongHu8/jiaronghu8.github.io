@@ -6,6 +6,7 @@
 body{
     background-image: url("images/background2.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     overscroll-behavior-y: none;
     margin:0;
 }
