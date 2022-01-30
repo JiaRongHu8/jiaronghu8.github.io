@@ -47,8 +47,3 @@ li a:hover{
 .dropdown:hover .dropdown-content{
     display: contents;
 }
-
-nav{
-    height:20%;
-    background-color:blue;
-}
