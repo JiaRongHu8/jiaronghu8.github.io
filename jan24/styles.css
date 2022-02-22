@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background-image: linear-gradient(red, blue);
 }
 
 body{
@@ -31,6 +32,6 @@ li a:hover{
 .mainBody{
     margin-left:180px;
     padding:1px 16px;
-    height:5000px;
+    height:px;
     color: white;
 }
