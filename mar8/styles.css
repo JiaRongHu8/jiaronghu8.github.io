@@ -14,6 +14,7 @@ h1{
     text-align:center;
     margin: 0;
     padding: 22% 0;
+    text-transform: uppercase;
 }
 
 h2{
@@ -22,6 +23,7 @@ h2{
     text-align:center;
     margin: 0;
     padding: 12% 0;
+    text-transform: uppercase;
 }
 
 p{
