@@ -1,0 +1,60 @@
+@font-face {
+    font-family: tenorite;
+    src: url(/tenorite/Tenorite-Regular.ttf);
+}
+
+html{
+    background-color:black;
+    color:white;
+}
+
+h1{
+    font-family: tenorite;
+    font-size: 10vw;
+    text-align:center;
+    margin: 0;
+    padding: 22% 0;
+}
+
+h2{
+    font-family: tenorite;
+    font-size: 3vw;
+    text-align:center;
+    margin: 0;
+    padding: 12% 0;
+}
+
+p{
+    font-size: 1vw;
+    font-family: tenorite;
+    color:white;
+}
+
+.photo1{
+    background-image:url(images/chad.png);
+    min-height: 100%;
+}
+
+.photo2{
+    background-image:url(images/ice_landscape.png);
+    min-height: 50vh;
+}
+
+.photo3{
+    background-image:url(images/mountain.jpg);
+    min-height: 50vh;
+}
+
+.photo4{
+    background-image:url(images/night_sky.png);
+    min-height: 50vh;
+}
+
+.photo1, .photo2, .photo3, .photo4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 100%;
+}
