@@ -11,12 +11,12 @@
             <a href="/index.html">Home</a>
             <a href="#">Grades</a>
             <a href="#Activities">Courses</a> 
-            <form style="float:right;">
-                <input placeholder="Search" id="searchArea">
-                <button type="button" onclick="search(getElementById('searchArea').value)"><i class="fa fa-search">
+            <div style="float:right;">
+                <input type="search" placeholder="Search" id="searchArea">
+                <button type="button" id="searchButton" onclick="search(getElementById('searchArea').value)"><i class="fa fa-search">
                     
                 </i></button>
-            </form>
+            </div>
         </div>
 
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque fermentum dui faucibus in ornare. Ac auctor augue mauris augue. Arcu vitae elementum curabitur vitae nunc sed. Lacus sed turpis tincidunt id. Id diam vel quam elementum pulvinar etiam non. Id consectetur purus ut faucibus pulvinar. Sit amet aliquam id diam maecenas ultricies mi eget. Gravida quis blandit turpis cursus in. Ac felis donec et odio pellentesque diam volutpat commodo sed. Feugiat nibh sed pulvinar proin gravida hendrerit. Semper risus in hendrerit gravida rutrum quisque non. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Aliquam id diam maecenas ultricies mi eget. Non pulvinar neque laoreet suspendisse. <br><br>
@@ -28,8 +28,16 @@
 
         <script>
             function search(string){
-                window.find(string)
+                window.find(string);
             }
+
+            var input = document.getElementById("searchArea");
+            input.addEventListener("keyup", function(event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    document.getElementById("searchButton").click();
+                }
+            });
         </script>
 
     </body>
