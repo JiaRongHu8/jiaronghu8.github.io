@@ -1,0 +1,51 @@
+@font-face {
+    font-family: tenorite;
+    src: url(/tenorite/Tenorite-Regular.ttf);
+}
+
+.menuBar{
+    overflow: hidden;
+    display:block;
+    background-color:grey;
+    padding-left:20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    background-color:grey;
+    color:white;
+    float: left;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    font-size:18px;
+}
+
+a:hover{
+    color: white;
+    background-color:rgb(87, 113, 184);
+}
+
+input{
+    padding: 8px 16px;
+    margin: 3px 0;
+    font-size: 14px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    float: right;
+    padding: 8px 16px;
+    margin: 3px 0;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+p{
+    margin-left:10px;
+    font-family:'Courier New', Courier, monospace
+}
