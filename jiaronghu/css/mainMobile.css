@@ -24,25 +24,30 @@ html, body {
 .menuBar{
     overflow: hidden;
     display:block;
-    /* background-color:rgb(149, 161, 171); */
-    background-color:rgb(255, 0, 0);
+    background-color:rgb(149, 161, 171);
     position: fixed;
     top: 0;
     width:100%;
     z-index: 9;
 }
 
+.menuBar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .menuLeft{
-    padding-left:5%;
     float:left;
-    width:fit-content;
+    width:100%;
     display:block;
-    position:absolute;
+    margin-bottom:1%;
 }
 
 .menuRight{
-    float:right;
-    width:100%;
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
     display:block;
 }
 
@@ -51,7 +56,7 @@ html, body {
     color:white;
     float: right;
     text-decoration: none;
-    padding: 9px 35px;
+    padding: 9px 2%;
     display: block;
     font-size:1em;
 }
@@ -80,7 +85,6 @@ html, body {
     display:block;
     padding: 9.5px 16px;
     margin: 3px 0;
-    margin-right:3%;
     background: #ddd;
     font-size: 13px;
     border: none;
@@ -95,15 +99,18 @@ html, body {
     width: 60%;
     height: 100%;
     display: block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .menuLogo{
-    float: left;
     text-decoration: none;
     padding: 1px;
     display: block;
     width: 148px;
     height: 35px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /* / / / / / / / / / / / / / / / / / / / / / / / /  */
@@ -119,6 +126,7 @@ html, body {
     max-height: 100%;
     display: block;
     float: left;
+    margin-top:70px;
 }
 
 .slideButton{
@@ -134,13 +142,19 @@ html, body {
 
 .slideshow{
     position: relative;
+    display:block;
+}
+
+.slideshow::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .images{
-    top: 0;
     left: 0;
     min-width:100%;
-    height: 80%;
+    height: 80%;    
 }
 
 .slideText{
@@ -149,11 +163,47 @@ html, body {
     z-index: 5;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 0%);
-    margin-top:20%;
-    font-size: 10vw;
+    transform: translate(-50%, -50%);
+    font-size: 12vw;
     color:whitesmoke;
 }
+
+/*///////////*/
+
+.imageOverlay{
+    float: left;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+}
+
+.imageOverlay h1{
+    float: left;
+    width:100%;
+    font-size: 15vw;
+    color:whitesmoke;
+    margin-bottom:5%;
+
+    text-align:center;
+}
+
+.overlayCenter{
+    padding-left:auto;
+    padding-right:auto;
+}
+
+
+.imageOverlay img{
+    width:30vw;
+    height:15vw;
+    float:left;
+
+}
+
+/*////////////////*/
 
 /* / / / / / / / / / / / / / / / / / / / / / / / /  */
 /* / / / / / / / / / / mainbody / / / / / / / / / / */
@@ -162,7 +212,7 @@ html, body {
 .mainBody{
     margin-left: 3%;
     margin-right:3%;
-    width: 90;
+    width: 90%;
 }
 
 /* / / / / / / / / / / / / / / / / / / / / / / / /  */
@@ -208,13 +258,13 @@ html, body {
     float:left;
     margin:0;
     font-weight: normal;
+    width:100%;
 }
 
 .recommendedPage a{
     font-size:1.2em;
     display:block;
-    float:right;
-    margin-top: 0.8em;
+    float:left;
     color: rgb(0,108,229);
 }
 
@@ -301,8 +351,8 @@ html, body {
     display:block;
     margin: 0;
     top: 50%;
-    left:30%;
-    transform: translate(+50%, +30%);
+    left:20%;
+    transform: translate(+30%, +30%);
     background-color: rgb(215, 221, 226);
     font-size:18px;
 
@@ -318,6 +368,8 @@ html, body {
     width: 60%;
     height: 100%;
     display: block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .footerLogo{
@@ -336,5 +388,5 @@ html, body {
     margin: 0;
     top: 50%;
     right: 30%;
-    transform: translate(-40%, +55%);
+    transform: translate(-20%, +55%);
 }

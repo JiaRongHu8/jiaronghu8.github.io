@@ -154,6 +154,40 @@ html, body {
     color:whitesmoke;
 }
 
+.imageOverlay{
+    float: left;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top:10%;
+    color:whitesmoke;
+}
+
+.imageOverlay h1{
+    float: left;
+    width:100%;
+    font-size: 10vw;
+    color:whitesmoke;
+    margin-bottom:5%;
+
+    text-align:center;
+}
+
+.overlayCenter{
+    padding-left:auto;
+    padding-right:auto;
+}
+
+
+.imageOverlay img{
+    width:20vw;
+    height:10vw;
+    float:left;
+
+}
+
 /* / / / / / / / / / / / / / / / / / / / / / / / /  */
 /* / / / / / / / / / / mainbody / / / / / / / / / / */
 /* / / / / / / / / / / / / / / / / / / / / / / / /  */
@@ -333,4 +367,17 @@ html, body {
     top: 50%;
     right: 30%;
     transform: translate(-40%, +55%);
+}
+
+/* / / / / / / / / / / / / / / / / / / / / / / / /  */
+/* / / / / / / / / / / paragraphs / / / / / / / / / */
+/* / / / / / / / / / / / / / / / / / / / / / / / /  */
+
+.bigTitle{
+    font-size:1.7em;
+}
+
+.smallTitle{
+    font-size:1.2em;
+    font-weight: bold;
 }
