@@ -1,0 +1,20 @@
+.slides{
+    display:none;
+    %;
+}
+
+button{
+    height: 20px;
+    width: 20px;
+    margin-left: 32%;
+    margin-top: 5%;
+    
+  
+}
+img{
+    max-width: 80%;
+    height: 50%;
+    margin-bottom: 1%;
+
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>slideshow</title>
+        <meta name="viewport" content="width:device-width,initial-scale:1.0">
+        <link rel="stylesheet" href="slideshow.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+    
+    <img class="slides" src="ga_left.jpg">
+    <img class="slides" src="ga_kei.jpg">
+    <img class="slides" src="bm4kj9nm2tf41.jpg">
+    <img class="slides" src="IMG_5425.jpg">
+    <img class="slides" src="ab67616d0000b2736fe39e3444ccab347ee7e11a.jpg">
+
+
+    <button onclick="move(-1)"><i class="fa fa-arrow-left"></i></button>
+    <button onclick="move(1)"><i class="fa fa-arrow-right"></i></button>
+
+    <script>
+        var i =1;
+        show(i);
+
+        function show(n){
+            var j;
+            var x=document.getElementsByClassName("slides");
+            if(n > x.length){ i = 1 }
+            if(n < 1){i = x.length}
+            for (j = 0; j < x.length; j++) {
+                x[j].style.display = "none";
+            }
+            x[i-1].style.display = "block";
+        }
+
+        function move(n){
+            show(i += n);
+        }
+    </script>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("slides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+    
+      slides[slideIndex-1].style.display = "block";  
+      
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+    </body>
+
+</html>

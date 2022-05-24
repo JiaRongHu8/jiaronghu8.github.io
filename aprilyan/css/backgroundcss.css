@@ -1,0 +1,13 @@
+.imgBackground{
+    background-image: url(bm4kj9nm2tf41.jpg);
+    width: 950px;
+    height: 880px;
+
+}
+.imgbackground2{
+    background-image: url(hm.jpg);
+    width: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    opacity: 80%;
+}

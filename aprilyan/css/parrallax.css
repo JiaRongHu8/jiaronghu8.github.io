@@ -1,0 +1,44 @@
+.photo1{
+    background-image: url(ga_kei.jpg);
+    min-height: 400px;
+}   
+.photo2{
+    background-image: url(ga_left.jpg);
+    min-height: 400px;
+}
+.photo3{
+    background-image: url(rinmiku.png);
+    min-height: 400px;
+}
+.photo4{
+    background-image: url(bm4kj9nm2tf41.jpg);
+    min-height: 400px;
+}
+
+.photo1,.photo2,.photo3,.photo4{
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 75%;
+}
+h2{
+    color:rgb(14, 209, 177);
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 180px;
+    text-shadow: 2px 3px rgb(248, 17, 86);
+    margin:0;
+    
+}
+section{
+    background-color:rgb(226, 243, 243);
+    
+}
+
+p{
+    margin:0;
+
+}

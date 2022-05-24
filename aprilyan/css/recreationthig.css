@@ -1,0 +1,28 @@
+ol{
+    background-color: darkturquoise; font-family:cursive;text-align: center
+}
+img{
+    float:right;
+     width: 350px;
+     height: 350px;
+}
+li{
+    text-decoration: none;
+    color: rgb(255, 0, 119);
+    padding: 15px 30px;
+    display:block;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+}
+
+pre{
+    color: darkturquoise;
+    font-family: 'Courier New', Courier, monospace ;
+    float: left;
+
+        width:70%;
+        height:40%;
+        background-color: deeppink;
+        overflow-y:scroll;
+}
